@@ -1,18 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import NavComponent from './components/NavComponent.vue';
 </script>
 
 <template>
-  <h1>Hello World <span>s</span></h1>
+    <NavComponent />
+    <RouterView />
 </template>
 
 <style scoped lang="scss">
-$bgColor: salmon;
-h1{
-  font-family: sans-serif;
-  background-color: $bgColor;
-  span{
-    color: red;
-  }
-}
+
 </style>
