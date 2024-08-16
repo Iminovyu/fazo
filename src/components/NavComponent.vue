@@ -192,7 +192,6 @@
             flex-direction: column;
             align-items: center;
             gap: 10px;
-            justify-content: center;
         }
     }
 }
